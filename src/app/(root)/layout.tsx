@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "../globals.css";
 import { GeistMono } from "geist/font/mono";
+import Navbar from "@/components/organisms/Navbar";
 
 export const metadata: Metadata = {
   title: "Unfollow Finder",
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body
         className={`antialiased ${GeistMono.className}`}
       >
+        <Navbar></Navbar>
         {children}
       </body>
     </html>
