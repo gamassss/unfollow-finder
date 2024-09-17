@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 
 const navbarItems: ReadonlyArray<{ href: string; label: string }> = [
   { href: "#how-it-works", label: "How It Works" },
+  { href: "#usage", label: "Usage" },
   { href: "#try-it-now", label: "Try It Now" },
   { href: "#faq", label: "FAQ" },
 ];

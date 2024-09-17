@@ -1,12 +1,12 @@
 const HeroSection: React.FC = () => {
   return (
-    <div className="h-screen flex flex-col justify-center items-center">
-      <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-6 leading-tight md:w-9/12">
+    <div className="min-h-screen flex flex-col justify-center items-center">
+      <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-16 md:mb-16 leading-tight md:leading-tight md:w-9/12">
         Find Out Who Doesn{"'"}t Follow Back on Instagram—
         <span className="bg-violet-300">100% Safe</span> and{" "}
         <span className="bg-violet-300">No Login Required!</span>
       </h1>
-      <h4 className="text-xl font-normal text-center leading-tight md:w-3/4 mb-12">
+      <h4 className="text-xl font-normal text-center leading-tight md:w-3/4 mb-20 md:mb-16">
         Your Privacy Matters. No Account Access Needed, Just a Simple File
         Upload.
       </h4>
