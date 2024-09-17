@@ -1,11 +1,10 @@
+import SectionTitle from "../atoms/SectionTitle";
 import UsageItem from "../atoms/UsageItem";
 
 const UsageSection: React.FC = () => {
   return (
     <div className="pb-16">
-      <h1 className="font-semibold text-xl md:text-2xl pb-1 mb-4 italic border-b-2 border-black">
-        Usage
-      </h1>
+      <SectionTitle title="Usage" />
       <ol className="list-decimal ml-8">
         <UsageItem
           title="Download Your Instagram Data"

@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = () => {
 
   return (
     <nav
-      className={`container fixed inset-x-0 top-0 z-50 max-h-16 border-b-white border-b-1 bg-primary py-4 px-4 md:px-20 lg:px-32 backdrop-blur-sm ${
+      className={`container fixed inset-x-0 top-0 z-50 bg-[#fefefe] border-b border-black bg-primary py-4 px-4 md:px-20 lg:px-32 ${
         isOpen && "bg-primary/80"
       }`}
     >
