@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased ${GeistMono.className}`}
+        className={`antialiased light ${GeistMono.className}`}
       >
         <Navbar></Navbar>
         {children}
