@@ -4,7 +4,7 @@ import UsageSection from "@/components/organisms/UsageSection";
 
 export default function Home() {
   return (
-    <div className="container bg-[#fefefe]">
+    <div className="container text-black bg-[#fefefe]">
       <HeroSection />
       <UsageSection />
       <UploadSection />
