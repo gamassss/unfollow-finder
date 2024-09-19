@@ -26,7 +26,7 @@ const UploadForm:React.FC<UploadFormProps> = ({fileName, className}) => {
           <Label htmlFor="file" className="text-sm font-medium">
             File
           </Label>
-          <Input id="file" type="file" placeholder="File" accept="image/*" />
+          <Input id="file" type="file" placeholder="File" accept="application/json" />
         </div>
       </CardContent>
       <CardFooter>
